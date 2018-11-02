@@ -1,0 +1,274 @@
+page-login {
+    ion-content.wrapper {
+        float: left;
+        width: 100%;
+        background: #f2f2f2;
+        margin: 0 auto;
+    }
+    .container {
+        
+        padding: 0 50px;
+    }
+    .heading{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 28.14px;
+        color: #423256;
+        text-transform: uppercase;
+        text-align: center;
+        // margin-top: 20px;
+        padding-top: 20px;
+        margin-bottom: 35px;
+    }
+    .list-ios > .item-block:first-child {
+       border-top: none!important; 
+    }
+    .list-ios .item-block .item-inner {
+        border-bottom: none!important;
+    }
+    .form-label {
+        font-size: 10.55px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb( 102, 102, 102 );
+        margin-bottom: 6px;
+    }
+    .item-ios{
+        padding-left: 0!important;
+    }
+    .item-ios.item-block .item-inner{
+        padding-right: 0!important;
+    }
+    .grid {
+        padding: 0!important;
+    }
+
+    .input1 {
+        border-radius: 2px;
+        background-color: white;
+        -webkit-box-shadow: 2px 3.464px 9px 0px #403252;
+        box-shadow: 2px 3.464px 9px 0px #40325226;
+        height: 33px;
+        display: flex;
+        padding: 0 10px!important;
+        margin-bottom: 24px;
+    }
+ 
+::placeholder{
+    font-size: 10.55px;
+    font-family: 'Open Sans', sans-serif;
+        color: rgba( 102, 102, 102, 0.302 ); 
+}      
+::-webkit-placeholder {
+    font-size: 10.55px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba( 102, 102, 102, 0.302 ); 
+ }
+ ::-moz-placeholder {  
+    font-size: 10.55px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba( 102, 102, 102, 0.302 ); 
+ }
+ input.text-input.text-input-ios {
+    margin: 0!important;
+}
+.checkbox .checkbox-icon{
+    width: 14px;
+    height: 14px;
+    -webkit-box-shadow: 2px 3.464px 9px 0px #4032524f;
+    box-shadow: 2px 3.464px 9px 0px #4032524f;
+    border-color:#ece7ff!important;
+    bottom: 1px;
+    border-radius: 50%;
+   } 
+   .checkbox .checkbox-checked .checkbox-inner {
+    left: 4px!important;
+    top: 1px!important;
+   }
+   .checkbox-ios-dark .checkbox-checked,.checkbox-md-dark .checkbox-checked,.checkbox-wp-dark .checkbox-checked {
+    border: 1px solid  rgb(63,50,80)!important;
+     background: linear-gradient( 0deg, rgb(82,52,122) 0%, rgb(63,50,80) 100%)!important;
+}
+.checkbox-wp .checkbox-checked .checkbox-inner{
+    left: 4px !important;
+    top: 1px !important;
+    width: 4px;
+    height: 9px;
+}
+
+.checkbox-md .checkbox-icon ,.checkbox-wp .checkbox-icon {
+    border-width: 1px!important;
+    border-style: none;
+    border-color: none;
+    background-color: #fff;
+}
+.pass{
+    margin-bottom: 18px!important;
+}
+ .checkbox-md .checkbox-checked .checkbox-inner {
+    left: 4px !important;
+    top: 1px !important;
+    width: 4px;
+    height: 9px;
+    border-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-style: solid;
+}
+.form.list.list-md,.list.list-ios,.list.list-wp {
+    margin: 0;
+    margin-bottom: 35px;
+}
+.forget{
+    margin: 0;
+    text-align: right;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.col {
+    padding: 0;
+    text-align: center;
+}
+.forget a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9.38px;
+    color: #594079;
+    text-decoration: none;
+    line-height: 2.25;
+}
+.login {
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Open Sans', sans-serif;
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 16px;
+    box-shadow: 4.5px 7.794px 18px 0px rgb( 63, 50, 80 );
+    width: 111px;
+    height: 34px;
+    background:rgb(82,52,122);
+    font-size: 8.21px;
+}
+
+.log-with{
+    color: #3f3250;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10.55px;
+    /* margin-top: 30px; */
+    /* position: relative; */
+    /* margin-bottom: 30px; */
+    position: absolute;
+    background: #f2f2f2;
+    align-items: left;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -9px;
+    z-index: 99;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+}
+
+.or-with{
+    background-color: #3f3250;
+    opacity: 0.502;
+    position: relative;
+    height: 2px;
+}
+// p.log-with::before{
+//     background-color: #3f3250;
+//     content: "";
+//     opacity: 0.502;
+//     position: absolute;
+//     left: 0;
+//     top: 8px;
+//    
+//     height: 2px;
+  
+// }
+// p.log-with::after{
+//     background-color: #3f3250;
+//     content: "";
+//     opacity: 0.502;
+//     position: absolute;
+//     right: 0;
+//     top: 8px;
+//     width: 72px;
+//     height: 2px;
+  
+// }
+.fb{
+    // background-image: url('C:\Users\ASUS\Desktop\unirely project\MyIonicProject\fb1.png');
+
+    background: none;
+    padding: 0;
+    margin-right: 10px;
+}
+.google{
+    background:none;
+  
+    padding: 0;
+}
+.social-icon{
+    text-align: right!important;
+}
+.social-icon1{
+    text-align: left!important;
+}
+.remember-me{
+    margin: 0;
+    color: rgb( 102, 102, 102 );
+    font-size: 9.38px;
+    line-height: 2.25;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+    text-align: left;
+}
+.new-user{
+    color:#b5b2b9;
+    font-size: 10.55px;
+    font-family: 'Open Sans', sans-serif;
+   margin-top: 30px
+}
+.new-user span a{
+    color:#594079;
+    
+}
+.header .toolbar-background, .footer .toolbar-background {
+    border:none;
+}
+.toolbar-background {
+    background: #f2f2f2;
+}
+.header-md::after {
+  
+    background: none!important;
+
+}
+.text-input-md ,.text-input-wp{
+     margin:0!important;
+     padding: 0;
+     width: 0!important;
+     border:none!important;
+     line-height:0!important;
+}
+.scroll-content {
+
+    overflow-y: hidden!important;
+}
+.or-content.col {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (min-width:0px) and (max-width:1280px) and (orientation:landscape)
+{
+.scroll-content{overflow-y:scroll!important;}
+}
+}
+  
